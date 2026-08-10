@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:56:00.000Z",
+  "savedAt": "2026-08-10T06:57:00.000Z",
   "groups": [
     { "id": "project-c-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-c-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -35,6 +35,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Student"
+    },
+    {
+      "id": "project-c-us004",
+      "title": "US004 - Offline Kitchen Display",
+      "description": "As Cafeteria Staff, I want the kitchen display to keep showing accepted orders during Wi-Fi outages, so that food preparation can continue during short network interruptions.\n\nAcceptance Criteria:\n- PASS if accepted orders remain visible for at least 10 minutes offline.\n- PASS if staff updates made offline are queued for synchronization.\n- PASS if reconnecting does not duplicate orders.\n- FAIL if the display clears accepted orders when Wi-Fi drops.",
+      "groupId": "project-c-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Urgent",
+      "owner": "Cafeteria Staff"
     }
   ],
   "analysis": {
