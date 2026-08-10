@@ -1,11 +1,22 @@
 {
-  "savedAt": "2026-08-10T06:33:00.000Z",
+  "savedAt": "2026-08-10T06:34:00.000Z",
   "groups": [
     { "id": "project-a-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-a-group-standard", "name": "Standard Work", "color": "#059669" },
     { "id": "project-a-group-minors", "name": "Minors", "color": "#d97706" }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "project-a-us001",
+      "title": "US001 - Prerequisite Validation",
+      "description": "As a Student, I want the roadmap to validate course prerequisites, so that I do not plan a course I am ineligible to take.\n\nAcceptance Criteria:\n- PASS if a course is accepted when all catalog prerequisites are completed.\n- PASS if an unmet prerequisite identifies the missing course and blocks current-term enrollment.\n- FAIL if a student without a prerequisite can enroll without an authorized override.",
+      "groupId": "project-a-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Urgent",
+      "owner": "Student"
+    }
+  ],
   "analysis": {
     "ambiguity1": "Stakeholder requirement: the Head of Advising wants advisors to override prerequisites when a student has 'special permission.' This is ambiguous because it does not define who may grant permission, which evidence is required, whether every prerequisite is overridable, or when an override expires. Developers need the authorized roles, approval workflow, required reason/evidence, eligible courses, and audit rules before implementation.",
     "ambiguity2": "Stakeholder requirement: the Registrar says the system must link to the 'live database' and prevent a student from adding a full class to a roadmap. This is ambiguous because 'live' has no freshness or outage definition, and 'roadmap' could mean current registration or future planning. Developers need the data refresh interval, behavior during database outages, the term boundary, and whether waitlisted or future offerings may be planned.",
