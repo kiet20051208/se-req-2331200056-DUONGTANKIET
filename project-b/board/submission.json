@@ -1,0 +1,17 @@
+{
+  "savedAt": "2026-08-10T06:40:00.000Z",
+  "groups": [
+    { "id": "project-b-group-blockers", "name": "Blockers", "color": "#2563eb" },
+    { "id": "project-b-group-standard", "name": "Standard Work", "color": "#059669" },
+    { "id": "project-b-group-minors", "name": "Minors", "color": "#d97706" }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Stakeholder requirement: the legal team wants only students with a valid .edu email account to use the marketplace. This is ambiguous because it does not define which domains qualify, whether subdomains are accepted, how email ownership is verified, whether alumni accounts remain valid, or how often accounts must be revalidated. Developers need allowed institutions/domains, verification flow, token expiry, account lifecycle rules, and recheck frequency.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
