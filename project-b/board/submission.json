@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:46:00.000Z",
+  "savedAt": "2026-08-10T06:47:00.000Z",
   "groups": [
     { "id": "project-b-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-b-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -34,6 +34,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "project-b-us004",
+      "title": "US004 - Safe-Zone-Gated Chat",
+      "description": "As a Student, I want chat to open only after a safe exchange zone is selected, so that buyer and seller communication supports safer campus meetups.\n\nAcceptance Criteria:\n- PASS if buyer/seller chat is locked until an approved safe zone is chosen.\n- PASS if the selected zone is visible to both participants in the conversation.\n- PASS if changing the zone updates the meeting record.\n- FAIL if chat can start with no approved exchange location.",
+      "groupId": "project-b-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Urgent",
       "owner": "Student"
     }
   ],
