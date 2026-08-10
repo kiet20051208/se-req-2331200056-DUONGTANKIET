@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:45:00.000Z",
+  "savedAt": "2026-08-10T06:46:00.000Z",
   "groups": [
     { "id": "project-b-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-b-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -24,6 +24,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "project-b-us003",
+      "title": "US003 - Fixed-Price Or Auction Listing",
+      "description": "As a Student, I want to list an item for a fixed price or approved auction, so that I can sell campus items using the format that fits the item.\n\nAcceptance Criteria:\n- PASS if the seller must choose fixed price or auction before publishing.\n- PASS if auction listings require end time, opening bid, and bid increment.\n- PASS if the app clearly says payment is arranged outside the app.\n- FAIL if the app processes, collects, or calculates a payment fee.",
+      "groupId": "project-b-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
       "owner": "Student"
     }
   ],
