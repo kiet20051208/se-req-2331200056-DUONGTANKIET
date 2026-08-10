@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:42:00.000Z",
+  "savedAt": "2026-08-10T06:43:00.000Z",
   "groups": [
     { "id": "project-b-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-b-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -10,8 +10,8 @@
     "ambiguity1": "Stakeholder requirement: the legal team wants only students with a valid .edu email account to use the marketplace. This is ambiguous because it does not define which domains qualify, whether subdomains are accepted, how email ownership is verified, whether alumni accounts remain valid, or how often accounts must be revalidated. Developers need allowed institutions/domains, verification flow, token expiry, account lifecycle rules, and recheck frequency.",
     "ambiguity2": "Stakeholder requirement: the Student Union wants students to sell books, calculators, and 'auction items.' This is ambiguous because auction rules are not defined: bid increments, start/end times, reserve prices, tie handling, cancellation rules, prohibited goods, and nonpayment handling are all unspecified. Developers need the permitted item categories, listing lifecycle, bidding rules, winner selection, and dispute policy before building auction behavior.",
     "conflictSolution": "Conflict: the legal team says the marketplace must not process payments, while the Student Union wants to charge a 2% transaction fee to fund activities. Resolution: keep payments completely outside the app and do not collect, transmit, calculate, or escrow money. The app can support listings, safe-zone selection, and buyer/seller messaging, while funding comes from an optional club donation, sponsor placement, or approved flat listing/membership fee that is not tied to sale amount. Legal review must approve any fee copy before release.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "Access Control: only users who verify ownership of an approved university email domain may create listings, bid, or send messages; expired or revoked accounts must be blocked within 24 hours of detection.",
+    "nfr2": "Physical Safety: a buyer and seller chat may not open until an approved campus safe exchange zone is selected for the listing or meeting; every selected zone must be logged with the listing and participants.",
+    "nfr3": "Privacy and Compliance: the marketplace must not collect card numbers, bank credentials, or in-app payment details, and buyer/seller contact information must be visible only to authenticated participants in that transaction."
   }
 }
