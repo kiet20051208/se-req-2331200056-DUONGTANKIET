@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:47:00.000Z",
+  "savedAt": "2026-08-10T06:48:00.000Z",
   "groups": [
     { "id": "project-b-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-b-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -45,6 +45,16 @@
       "type": "User Story",
       "priority": "Urgent",
       "owner": "Student"
+    },
+    {
+      "id": "project-b-us005",
+      "title": "US005 - Safe Exchange Zone Admin",
+      "description": "As an Administrator, I want to manage approved safe exchange zones, so that students can select only vetted campus meetup locations.\n\nAcceptance Criteria:\n- PASS if an admin can add, edit, deactivate, and view safe zones.\n- PASS if inactive zones cannot be selected for new meetings.\n- PASS if existing meetings keep a historical record of the zone used.\n- FAIL if a student can create a custom unapproved exchange zone.",
+      "groupId": "project-b-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Administrator/Staff"
     }
   ],
   "analysis": {
