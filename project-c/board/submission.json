@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:58:00.000Z",
+  "savedAt": "2026-08-10T06:59:00.000Z",
   "groups": [
     { "id": "project-c-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-c-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -55,6 +55,36 @@
       "type": "User Story",
       "priority": "Urgent",
       "owner": "Chef/Cafeteria Staff"
+    },
+    {
+      "id": "project-c-nfr-epic-1",
+      "title": "NFR Epic 1: Offline Resilience: the kitchen display must remain usable for at leas",
+      "description": "Offline Resilience: the kitchen display must remain usable for at least 10 minutes without Wi-Fi, showing cached accepted orders and allowing staff to continue preparing them without data loss.",
+      "groupId": "project-c-group-standard",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "project-c-nfr-epic-2",
+      "title": "NFR Epic 2: Synchronization Reliability: after connectivity returns, order and sol",
+      "description": "Synchronization Reliability: after connectivity returns, order and sold-out updates must synchronize idempotently within 60 seconds without duplicate orders or stale item availability.",
+      "groupId": "project-c-group-standard",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "project-c-nfr-epic-3",
+      "title": "NFR Epic 3: Allergen Safety: allergen filters must exclude items with confirmed or",
+      "description": "Allergen Safety: allergen filters must exclude items with confirmed or unknown peanut exposure data from 'No Peanuts' results and display clear warnings for cross-contact risk.",
+      "groupId": "project-c-group-standard",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
