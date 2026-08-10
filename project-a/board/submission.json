@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:36:00.000Z",
+  "savedAt": "2026-08-10T06:37:00.000Z",
   "groups": [
     { "id": "project-a-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-a-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -34,6 +34,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "project-a-us004",
+      "title": "US004 - Live Course Availability",
+      "description": "As a Student, I want to see live course availability while planning, so that I know whether a current-term class can still be selected.\n\nAcceptance Criteria:\n- PASS if open seats are refreshed from the Registrar source for current-term sections.\n- PASS if a full current-term section is blocked with a clear full-class message.\n- PASS if future-term courses are marked planning only when capacity is unknown.\n- FAIL if a full current-term section can be added as enrollable.",
+      "groupId": "project-a-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Urgent",
       "owner": "Student"
     }
   ],
