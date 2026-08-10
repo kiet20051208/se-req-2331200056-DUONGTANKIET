@@ -39,7 +39,7 @@
     {
       "id": "project-c-us004",
       "title": "US004 - Offline Kitchen Display",
-      "description": "As Cafeteria Staff, I want the kitchen display to keep showing accepted orders during Wi-Fi outages, so that food preparation can continue during short network interruptions.\n\nAcceptance Criteria:\n- PASS if accepted orders remain visible for at least 10 minutes offline.\n- PASS if staff updates made offline are queued for synchronization.\n- PASS if reconnecting does not duplicate orders.\n- FAIL if the display clears accepted orders when Wi-Fi drops.",
+      "description": "As a Cafeteria Staff member, I want the kitchen display to keep showing accepted orders during Wi-Fi outages, so that food preparation can continue during short network interruptions.\n\nAcceptance Criteria:\n- PASS if accepted orders remain visible for at least 10 minutes offline.\n- PASS if staff updates made offline are queued for synchronization.\n- PASS if reconnecting does not duplicate orders.\n- FAIL if the display clears accepted orders when Wi-Fi drops.",
       "groupId": "project-c-group-standard",
       "status": "todo",
       "type": "User Story",

@@ -58,7 +58,7 @@
     },
     {
       "id": "project-a-nfr-epic-1",
-      "title": "NFR Epic 1: Security and Privacy: an authenticated student may retrieve only their own ",
+      "title": "NFR Epic 1: Security and Privacy: an authenticated student may retrieve only their",
       "description": "Security and Privacy: an authenticated student may retrieve only their own schedule and roadmap; every direct request for another student's data must be denied and recorded in the security log.",
       "groupId": "project-a-group-standard",
       "status": "todo",
@@ -68,7 +68,7 @@
     },
     {
       "id": "project-a-nfr-epic-2",
-      "title": "NFR Epic 2: Auditability: every prerequisite override must record the advisor identity,",
+      "title": "NFR Epic 2: Auditability: every prerequisite override must record the advisor iden",
       "description": "Auditability: every prerequisite override must record the advisor identity, student, course, timestamp, reason, and resulting decision in an append-only audit log searchable by authorized staff.",
       "groupId": "project-a-group-standard",
       "status": "todo",
@@ -78,7 +78,7 @@
     },
     {
       "id": "project-a-nfr-epic-3",
-      "title": "NFR Epic 3: Data Freshness and Reliability: during active registration, displayed sect",
+      "title": "NFR Epic 3: Data Freshness and Reliability: during active registration, displayed ",
       "description": "Data Freshness and Reliability: during active registration, displayed section capacity must be no more than 60 seconds behind the Registrar database; if freshness cannot be verified, enrollment actions must be disabled and marked unavailable.",
       "groupId": "project-a-group-standard",
       "status": "todo",
