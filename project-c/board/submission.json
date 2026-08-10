@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:54:00.000Z",
+  "savedAt": "2026-08-10T06:55:00.000Z",
   "groups": [
     { "id": "project-c-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-c-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -10,6 +10,16 @@
       "id": "project-c-us001",
       "title": "US001 - Mobile Cafeteria Ordering",
       "description": "As a Student, I want to place cafeteria orders from my phone, so that I can reduce time spent waiting in line.\n\nAcceptance Criteria:\n- PASS if the student can select available menu items and submit an order.\n- PASS if the order shows confirmed only after it is saved and received by the kitchen flow.\n- PASS if unavailable items cannot be ordered.\n- FAIL if an order is confirmed when fulfillment status is unknown.",
+      "groupId": "project-c-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Urgent",
+      "owner": "Student"
+    },
+    {
+      "id": "project-c-us002",
+      "title": "US002 - Allergen Menu Filtering",
+      "description": "As a Student, I want to filter the menu for no peanuts, so that I can avoid items that may be unsafe for my allergy.\n\nAcceptance Criteria:\n- PASS if the no-peanuts filter hides items with peanut ingredients.\n- PASS if items with unknown peanut data are excluded or clearly warned.\n- PASS if cross-contact risk is displayed before ordering.\n- FAIL if a peanut-risk item appears as safe in filtered results.",
       "groupId": "project-c-group-standard",
       "status": "todo",
       "type": "User Story",
