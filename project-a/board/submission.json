@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:34:00.000Z",
+  "savedAt": "2026-08-10T06:35:00.000Z",
   "groups": [
     { "id": "project-a-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-a-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -14,6 +14,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Urgent",
+      "owner": "Student"
+    },
+    {
+      "id": "project-a-us002",
+      "title": "US002 - Drag-and-Drop Roadmap",
+      "description": "As a Student, I want to drag courses into term calendars, so that I can build and revise a multi-year academic roadmap.\n\nAcceptance Criteria:\n- PASS if dropping a course into a term saves it in that term.\n- PASS if moving a planned course updates the source and destination terms.\n- PASS if the roadmap remains saved after reload.\n- FAIL if the same course is duplicated by one drop action.",
+      "groupId": "project-a-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
       "owner": "Student"
     }
   ],
