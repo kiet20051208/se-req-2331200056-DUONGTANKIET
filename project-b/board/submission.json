@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:48:00.000Z",
+  "savedAt": "2026-08-10T06:49:00.000Z",
   "groups": [
     { "id": "project-b-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-b-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -55,6 +55,36 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Administrator/Staff"
+    },
+    {
+      "id": "project-b-nfr-epic-1",
+      "title": "NFR Epic 1: Access Control: only users who verify ownership of an approved univers",
+      "description": "Access Control: only users who verify ownership of an approved university email domain may create listings, bid, or send messages; expired or revoked accounts must be blocked within 24 hours of detection.",
+      "groupId": "project-b-group-standard",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "project-b-nfr-epic-2",
+      "title": "NFR Epic 2: Physical Safety: a buyer and seller chat may not open until an approve",
+      "description": "Physical Safety: a buyer and seller chat may not open until an approved campus safe exchange zone is selected for the listing or meeting; every selected zone must be logged with the listing and participants.",
+      "groupId": "project-b-group-standard",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "project-b-nfr-epic-3",
+      "title": "NFR Epic 3: Privacy and Compliance: the marketplace must not collect card numbers,",
+      "description": "Privacy and Compliance: the marketplace must not collect card numbers, bank credentials, or in-app payment details, and buyer/seller contact information must be visible only to authenticated participants in that transaction.",
+      "groupId": "project-b-group-standard",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
