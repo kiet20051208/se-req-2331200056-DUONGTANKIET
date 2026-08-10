@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:35:00.000Z",
+  "savedAt": "2026-08-10T06:36:00.000Z",
   "groups": [
     { "id": "project-a-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-a-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -24,6 +24,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "project-a-us003",
+      "title": "US003 - 8 AM Course Warning",
+      "description": "As a Student, I want a warning when a planned course starts at 8:00 AM, so that I can reconsider a schedule that may not fit my routine.\n\nAcceptance Criteria:\n- PASS if an 8:00 AM course shows a warning before the roadmap is saved.\n- PASS if the student can keep or remove the course after seeing the warning.\n- PASS if courses at other start times do not show the 8:00 AM warning.\n- FAIL if an 8:00 AM course is saved without any warning.",
+      "groupId": "project-a-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
       "owner": "Student"
     }
   ],
