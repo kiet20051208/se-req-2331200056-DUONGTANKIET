@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:31:00.000Z",
+  "savedAt": "2026-08-10T06:32:00.000Z",
   "groups": [
     { "id": "project-a-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-a-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -9,7 +9,7 @@
   "analysis": {
     "ambiguity1": "Stakeholder requirement: the Head of Advising wants advisors to override prerequisites when a student has 'special permission.' This is ambiguous because it does not define who may grant permission, which evidence is required, whether every prerequisite is overridable, or when an override expires. Developers need the authorized roles, approval workflow, required reason/evidence, eligible courses, and audit rules before implementation.",
     "ambiguity2": "Stakeholder requirement: the Registrar says the system must link to the 'live database' and prevent a student from adding a full class to a roadmap. This is ambiguous because 'live' has no freshness or outage definition, and 'roadmap' could mean current registration or future planning. Developers need the data refresh interval, behavior during database outages, the term boundary, and whether waitlisted or future offerings may be planned.",
-    "conflictSolution": "",
+    "conflictSolution": "Conflict: the Registrar wants full classes blocked from roadmaps using live availability, while Advising wants students to plan four years ahead when future capacity is unknown. Resolution: distinguish a non-binding long-term plan from current-term enrollment. Future courses may be placed with an 'availability not guaranteed' label. For the active registration term, refresh authoritative availability and block adding a full section, while offering alternatives or a waitlist link. This preserves long-range planning without presenting uncertain capacity as enrollable.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
