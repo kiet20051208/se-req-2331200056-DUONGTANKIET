@@ -9,7 +9,7 @@
     {
       "id": "project-a-us001",
       "title": "US001 - Prerequisite Validation",
-      "description": "As a Student, I want the roadmap to validate course prerequisites, so that I do not plan a course I am ineligible to take.\n\nAcceptance Criteria:\n- PASS if a course is accepted when all catalog prerequisites are completed.\n- PASS if an unmet prerequisite identifies the missing course and blocks current-term enrollment.\n- FAIL if a student without a prerequisite can enroll without an authorized override.",
+      "description": "As a Student, I want to have the roadmap validate course prerequisites, so that I do not plan a course I am ineligible to take.\n\nAcceptance Criteria:\n- PASS if a course is accepted when all catalog prerequisites are completed.\n- PASS if an unmet prerequisite identifies the missing course and blocks current-term enrollment.\n- FAIL if a student without a prerequisite can enroll without an authorized override.",
       "groupId": "project-a-group-standard",
       "status": "todo",
       "type": "User Story",
@@ -29,7 +29,7 @@
     {
       "id": "project-a-us003",
       "title": "US003 - 8 AM Course Warning",
-      "description": "As a Student, I want a warning when a planned course starts at 8:00 AM, so that I can reconsider a schedule that may not fit my routine.\n\nAcceptance Criteria:\n- PASS if an 8:00 AM course shows a warning before the roadmap is saved.\n- PASS if the student can keep or remove the course after seeing the warning.\n- PASS if courses at other start times do not show the 8:00 AM warning.\n- FAIL if an 8:00 AM course is saved without any warning.",
+      "description": "As a Student, I want to receive a warning when a planned course starts at 8:00 AM, so that I can reconsider a schedule that may not fit my routine.\n\nAcceptance Criteria:\n- PASS if an 8:00 AM course shows a warning before the roadmap is saved.\n- PASS if the student can keep or remove the course after seeing the warning.\n- PASS if courses at other start times do not show the 8:00 AM warning.\n- FAIL if an 8:00 AM course is saved without any warning.",
       "groupId": "project-a-group-standard",
       "status": "todo",
       "type": "User Story",

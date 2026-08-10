@@ -19,7 +19,7 @@
     {
       "id": "project-b-us002",
       "title": "US002 - Barcode-Assisted Listing",
-      "description": "As a Student, I want to scan an item barcode while creating a listing, so that book and calculator details can be entered quickly and accurately.\n\nAcceptance Criteria:\n- PASS if scanning a recognized barcode fills item title and category.\n- PASS if the seller can edit scanned details before publishing.\n- PASS if an unknown barcode falls back to manual entry.\n- FAIL if a listing publishes without required title, category, and condition.",
+      "description": "As a Student, I want to scan a textbook barcode while creating a listing, so that ISBN and title details can be entered quickly and accurately.\n\nAcceptance Criteria:\n- PASS if scanning a recognized barcode fills item title and category.\n- PASS if the seller can edit scanned details before publishing.\n- PASS if an unknown barcode falls back to manual entry.\n- FAIL if a listing publishes without required title, category, and condition.",
       "groupId": "project-b-group-standard",
       "status": "todo",
       "type": "User Story",
@@ -39,7 +39,7 @@
     {
       "id": "project-b-us004",
       "title": "US004 - Safe-Zone-Gated Chat",
-      "description": "As a Student, I want chat to open only after a safe exchange zone is selected, so that buyer and seller communication supports safer campus meetups.\n\nAcceptance Criteria:\n- PASS if buyer/seller chat is locked until an approved safe zone is chosen.\n- PASS if the selected zone is visible to both participants in the conversation.\n- PASS if changing the zone updates the meeting record.\n- FAIL if chat can start with no approved exchange location.",
+      "description": "As a Student, I want to open chat only after a safe exchange zone is selected, so that buyer and seller communication supports safer campus meetups.\n\nAcceptance Criteria:\n- PASS if buyer/seller chat is locked until an approved safe zone is chosen.\n- PASS if the selected zone is visible to both participants in the conversation.\n- PASS if changing the zone updates the meeting record.\n- FAIL if chat can start with no approved exchange location.",
       "groupId": "project-b-group-standard",
       "status": "todo",
       "type": "User Story",
@@ -90,7 +90,7 @@
   "analysis": {
     "ambiguity1": "Stakeholder requirement: the Student Union President wants only people with a valid .edu email address to create an account. This is ambiguous because it does not define how ownership of the email address will be verified, whether all .edu domains are accepted, whether only this university's domain is allowed, or what happens if a user's university email later becomes inactive. Developers need the allowed domain policy, verification workflow, account lifecycle rules, and revalidation behavior.",
     "ambiguity2": "Stakeholder requirement: the Senior Student wants to sell textbooks and wants the marketplace to support auctions instead of only fixed-price listings. This is ambiguous because it does not define auction duration, starting price, minimum bid increment, bidding deadlines, winner selection, cancellation rules, or what happens if no valid bid is received. Developers need the auction lifecycle, bidding rules, winner selection, and no-bid handling before implementation.",
-    "conflictSolution": "Conflict: the legal team says the marketplace must not process payments, while the Student Union wants to charge a 2% transaction fee to fund activities. Resolution: keep payments completely outside the app and do not collect, transmit, calculate, or escrow money. The app can support listings, safe-zone selection, and buyer/seller messaging, while funding comes from an optional club donation, sponsor placement, or approved flat listing/membership fee that is not tied to sale amount. Legal review must approve any fee copy before release.",
+    "conflictSolution": "Conflict: the legal team says the marketplace must not process payments, while the Student Union President wants to charge a 2% transaction fee to fund activities. Resolution: keep payments completely outside the app and do not collect, transmit, calculate, or escrow money. The app can support listings, safe-zone selection, and buyer/seller messaging, while funding comes from an optional club donation, sponsor placement, or approved flat listing/membership fee that is not tied to sale amount. Legal review must approve any fee copy before release.",
     "nfr1": "Access Control: only users who verify ownership of an approved university email domain may create listings, bid, or send messages; expired or revoked accounts must be blocked within 24 hours of detection.",
     "nfr2": "Physical Safety: a buyer and seller chat may not open until an approved campus safe exchange zone is selected for the listing or meeting; every selected zone must be logged with the listing and participants.",
     "nfr3": "Privacy and Compliance: the marketplace must not collect card numbers, bank credentials, or in-app payment details, and buyer/seller contact information must be visible only to authenticated participants in that transaction."
