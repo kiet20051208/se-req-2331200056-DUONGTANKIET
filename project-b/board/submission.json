@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:40:00.000Z",
+  "savedAt": "2026-08-10T06:41:00.000Z",
   "groups": [
     { "id": "project-b-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-b-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -8,7 +8,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "Stakeholder requirement: the legal team wants only students with a valid .edu email account to use the marketplace. This is ambiguous because it does not define which domains qualify, whether subdomains are accepted, how email ownership is verified, whether alumni accounts remain valid, or how often accounts must be revalidated. Developers need allowed institutions/domains, verification flow, token expiry, account lifecycle rules, and recheck frequency.",
-    "ambiguity2": "",
+    "ambiguity2": "Stakeholder requirement: the Student Union wants students to sell books, calculators, and 'auction items.' This is ambiguous because auction rules are not defined: bid increments, start/end times, reserve prices, tie handling, cancellation rules, prohibited goods, and nonpayment handling are all unspecified. Developers need the permitted item categories, listing lifecycle, bidding rules, winner selection, and dispute policy before building auction behavior.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
