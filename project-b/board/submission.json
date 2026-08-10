@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:44:00.000Z",
+  "savedAt": "2026-08-10T06:45:00.000Z",
   "groups": [
     { "id": "project-b-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-b-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -14,6 +14,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Urgent",
+      "owner": "Student"
+    },
+    {
+      "id": "project-b-us002",
+      "title": "US002 - Barcode-Assisted Listing",
+      "description": "As a Student, I want to scan an item barcode while creating a listing, so that book and calculator details can be entered quickly and accurately.\n\nAcceptance Criteria:\n- PASS if scanning a recognized barcode fills item title and category.\n- PASS if the seller can edit scanned details before publishing.\n- PASS if an unknown barcode falls back to manual entry.\n- FAIL if a listing publishes without required title, category, and condition.",
+      "groupId": "project-b-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
       "owner": "Student"
     }
   ],
