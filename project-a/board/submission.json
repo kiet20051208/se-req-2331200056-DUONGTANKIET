@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:37:00.000Z",
+  "savedAt": "2026-08-10T06:38:00.000Z",
   "groups": [
     { "id": "project-a-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-a-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -45,6 +45,16 @@
       "type": "User Story",
       "priority": "Urgent",
       "owner": "Student"
+    },
+    {
+      "id": "project-a-us005",
+      "title": "US005 - Advisor Override Approval",
+      "description": "As an Advisor, I want to approve prerequisite overrides with a recorded reason, so that qualified students with special permission can plan an exception responsibly.\n\nAcceptance Criteria:\n- PASS if only an authorized advisor can approve an override.\n- PASS if approval requires student, course, reason, timestamp, and advisor identity.\n- PASS if an approved override allows that specific course to be planned.\n- FAIL if an override can be created without an audit record.",
+      "groupId": "project-a-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Advisor/Staff"
     }
   ],
   "analysis": {
