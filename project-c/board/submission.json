@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:50:00.000Z",
+  "savedAt": "2026-08-10T06:51:00.000Z",
   "groups": [
     { "id": "project-c-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-c-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -8,7 +8,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "Stakeholder requirement: the chef wants to mark meals as 'Sold Out' instantly from the kitchen. This is ambiguous because 'instantly' does not define acceptable propagation time, behavior when Wi-Fi is down, whether existing mobile carts are invalidated, or who is allowed to change menu availability. Developers need latency targets, offline behavior, authorization rules, and order/cart conflict handling.",
-    "ambiguity2": "",
+    "ambiguity2": "Stakeholder requirement: a student wants to filter the entire menu for 'No Peanuts.' This is ambiguous because it does not define whether the filter excludes only ingredients, possible cross-contact, unknown allergen data, or menu items prepared near peanuts. Developers need the allergen taxonomy, source of ingredient data, handling of unknown values, display wording, and whether the filter hides items or shows warnings.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
