@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:55:00.000Z",
+  "savedAt": "2026-08-10T06:56:00.000Z",
   "groups": [
     { "id": "project-c-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-c-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -24,6 +24,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Urgent",
+      "owner": "Student"
+    },
+    {
+      "id": "project-c-us003",
+      "title": "US003 - Lunch Rush Special Alert",
+      "description": "As a Student, I want to receive the daily special notification before the 11:30 AM lunch rush, so that I can decide whether to order early.\n\nAcceptance Criteria:\n- PASS if subscribed students receive one daily special notification before 11:30 AM.\n- PASS if the notification opens the current special in the ordering flow.\n- PASS if unsubscribed students receive no promotional notification.\n- FAIL if sold-out specials are promoted as orderable.",
+      "groupId": "project-c-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
       "owner": "Student"
     }
   ],
