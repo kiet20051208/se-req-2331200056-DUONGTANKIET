@@ -1,0 +1,17 @@
+{
+  "savedAt": "2026-08-10T06:30:00.000Z",
+  "groups": [
+    { "id": "project-a-group-blockers", "name": "Blockers", "color": "#2563eb" },
+    { "id": "project-a-group-standard", "name": "Standard Work", "color": "#059669" },
+    { "id": "project-a-group-minors", "name": "Minors", "color": "#d97706" }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Stakeholder requirement: the Head of Advising wants advisors to override prerequisites when a student has 'special permission.' This is ambiguous because it does not define who may grant permission, which evidence is required, whether every prerequisite is overridable, or when an override expires. Developers need the authorized roles, approval workflow, required reason/evidence, eligible courses, and audit rules before implementation.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
