@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:57:00.000Z",
+  "savedAt": "2026-08-10T06:58:00.000Z",
   "groups": [
     { "id": "project-c-group-blockers", "name": "Blockers", "color": "#2563eb" },
     { "id": "project-c-group-standard", "name": "Standard Work", "color": "#059669" },
@@ -45,6 +45,16 @@
       "type": "User Story",
       "priority": "Urgent",
       "owner": "Cafeteria Staff"
+    },
+    {
+      "id": "project-c-us005",
+      "title": "US005 - Sold-Out Menu Control",
+      "description": "As a Chef, I want to mark menu items as sold out from the kitchen, so that students cannot order food that is no longer available.\n\nAcceptance Criteria:\n- PASS if an authorized chef can mark an item sold out from the kitchen view.\n- PASS if sold-out status removes the item from new order availability within 60 seconds online.\n- PASS if active carts are rechecked before checkout.\n- FAIL if a sold-out item can be submitted in a new order.",
+      "groupId": "project-c-group-standard",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Urgent",
+      "owner": "Chef/Cafeteria Staff"
     }
   ],
   "analysis": {
